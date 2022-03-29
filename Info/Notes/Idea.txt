@@ -1,0 +1,13 @@
+Isometric-ish 3D city-building game
+
+- 
+- Player is a Mayor/Settler that will build a town and recruit NPC citizens
+- World is split into 3D tiles from bottom of the world to the sky. Each tile will have a rock level (under which caves/resources will randomly generate), a player terraformable "landfill" level which defaults to nothing, a surface level, and whatever may be above the surface (i.e trees, resources, buildings, etc)
+- The player will be able to control all NPC citizens including their own Mayor character, if the mayor character dies it's game over, so the citizens must be used to protect them.
+- World will be randomly generated using perlin noise.
+- The Mayor will also need to tend to the needs of the city, examples can be found in games such as Reigns and Sort the Court, this will be a central part of the game and not just a hint system like in other city builders.
+- Camera can be rotated 360 degrees to view around objects
+
+Future additions:
+
+- Other towns that can be recruited to form a Nation or taken over by force. Recruitment is harder to complete but easy once done, conquest is quick but makes managing harder.
